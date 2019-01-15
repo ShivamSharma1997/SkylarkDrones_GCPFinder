@@ -10,7 +10,7 @@ class SIFT:
         self.alphaMax = alphaMax
         self.thresh = thresh
 
-    def getPoints(self, imgPath, tempPath, writeImg=False, writeDir='../data/'):
+    def getPoints(self, imgPath, tempFldrPath, writeImg=False, writeDir='../data/'):
         
         bestMatchPoints = []
         
@@ -23,9 +23,9 @@ class SIFT:
         kp1, des1 = sift.detectAndCompute(img1,None)
         img1 = cv2.imread(imgPath)
         
-        for tempName in os.listdir(tempPath):
+        for tempName in os.listdir(tempFldrPath):
             
-            img2 = cv2.imread('{}/{}'.format(tempPath, tempName))
+            img2 = cv2.imread('{}/{}'.format(tempFldrPath, tempName))
             img2 = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
             
             kp2, des2 = sift.detectAndCompute(img2,None)
