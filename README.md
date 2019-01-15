@@ -7,10 +7,10 @@ The assignment was to find 'L' shaped white Ground Control Points (GCPs) from th
 
 The method I have used to solve this problem is using Scale-Invariant Feature Transform (SIFT) method along with Blunt Force Matching. 
 
--> First the Image is converted to binary so as to remove major noise and extra features.
--> Then it is passed through the SIFT function.
--> The resulting image is matched using KNN with Blunt Force Method with GCP at 4 different angles kept in the template folder in                 data.
--> The resulting matched points are returned. Please note that the array obtained is first checked for similar points or points in same area.
+-> First the Image is converted to binary so as to remove major noise and extra features.<br />
+-> Then it is passed through the SIFT function.<br />
+-> The resulting image is matched using KNN with Blunt Force Method with GCP at 4 different angles kept in the template folder in                 data.<br />
+-> The resulting matched points are returned. Please note that the array obtained is first checked for similar points or points in same area.<br />
 
 A point to be noted is that the results can be improved by changing the feature extraction and matching methods, but the main idea is the same.
 
