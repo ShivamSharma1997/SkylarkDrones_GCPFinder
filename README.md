@@ -1,6 +1,6 @@
 # SkylarkDrones_GCPFinder
 
-This repository contains the my solution to the coding assignment for Skylark Drones. 
+This repository contains my solution to the coding assignment for Skylark Drones. 
 The assignment was to find 'L' shaped white Ground Control Points (GCPs) from the given images.
 
 # Method Used
