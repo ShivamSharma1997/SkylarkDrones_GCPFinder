@@ -48,7 +48,8 @@ class SIFT:
             bestMatchPoints.extend(good)
             if writeImg:
                 imgName = imgPath.split('/')[-1][:-4]
-                writePath = writeDir+imgName+'_'+tempName+'.JPG'
+                tempImgName = tempName.split('.')[0]
+                writePath = writeDir+imgName+'_'+tempImgName+'.JPG'
                 outImage = np.zeros(img1.shape)
                 img3 = cv2.drawMatchesKnn(img1,kp1,img2,kp2, res, outImage, flags=2)
                 cv2.imwrite(writePath,img3)
