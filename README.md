@@ -10,6 +10,4 @@ The method I have used to solve this problem is using Scale-Invariant Feature Tr
 # Results
 
 The following is a correctly placed marker by the method mentioned above.
-![Result](https://raw.githubusercontent.com/ShivamSharma1997/SkylarkDrones_GCPFinder/master/
-        SkylarkDrones_GCPFinder/data/results/DJI_0036_1.JPG
-      /to/img.png)
+![Result](https://raw.githubusercontent.com/ShivamSharma1997/SkylarkDrones_GCPFinder/master/SkylarkDrones_GCPFinder/data/results/DJI_0036_1.JPG/to/img.JPG)
