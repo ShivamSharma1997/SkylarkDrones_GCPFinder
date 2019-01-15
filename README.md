@@ -29,6 +29,6 @@ The following is an image without a GCP with a marker.
 ![False Positive](data/results/DJI_0064_4.JPG)
 
 
-The following is an image without a GCP with a marker. 
+The following is an image with multiple GCP but the result shows only one. This can be improved by a little more processing and changing methods. (I am sure I will be able to imrpove this but could not because lack of time.) 
 
-![True Negative](data/results/DJI_0084_4.JPG)
+![Result](data/results/DJI_0084_4.JPG)
